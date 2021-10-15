@@ -17,6 +17,7 @@ class Posts extends Migration
             $table->id();
             $table->string('title', 255);
             $table->text('body');
+            $table->timestamps();
         });
     }
 
